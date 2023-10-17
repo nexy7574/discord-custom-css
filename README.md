@@ -10,3 +10,10 @@ You can either copy & paste [openasar-config.css](./openasar-config.css), or add
 ```css
 @import("https://git.nexy7574.co.uk/nex/discord-customcss/raw/branch/main/openasar-config.css")
 ```
+
+# Disclaimer
+Modifying the discord client is against their terms of service. You use this custom style sheet at your own risk, and I am
+not responsible for any issues that may arise.
+Provided as is.
+
+See [LICENSE](./license)

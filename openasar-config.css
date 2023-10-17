@@ -1,11 +1,24 @@
 /* This is my configuration that I use with OpenAsar.
  * You can install OpenAsar here: https://openasar.dev/
  * To use this, simply open custom theming options and paste the following:
- * @import url("https://files.nexy7574.co.uk/share/openasar-config.css")
+ * @import url("https://git.nexy7574.co.uk/nex/discord-customcss/src/branch/main/openasar-config.css")
+ *
+ * License: Unlicense (https://git.nexy7574.co.uk/nex/discord-customcss/src/branch/main/LICENSE)
+ * README: https://git.nexy7574.co.uk/nex/discord-customcss/src/branch/main/README.md
  */
 
-@import url('https://fonts.cdnfonts.com/css/whitney-2?styles=68522');
-/* Import the old whitney font, the SansGG Shit discord made is really hard to read */
+/*
+ * Use Whitney font, SansGG sucks.
+ */
+@font-face {
+    font-family: 'Whitney';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Whitney'), url('https://git.nexy7574.co.uk/nex/discord-customcss/src/branch/main/whitney.woff') format('woff');
+}
+
+
+
 :root {
     --font-primary: "Whitney", Helvetica, Arial, sans-serif !important;
     --font-display: "Whitney", Helvetica, Arial, sans-serif !important
@@ -32,7 +45,10 @@ button[aria-label="Send a gift"],
 button[aria-label="Open GIF picker"],
 button[aria-label="Open sticker picker"],
 /* Also remove the "Boost Goal" crap */
-div[aria-label^="Buy Boosts to"] {
+div[aria-label^="Buy Boosts to"]
+/* And the "Family Centre" stuff, I'm not a child. */
+div[aria-label="Family Centre"], div[aria-label="Family Center"] 
+{
     display: none !important;
     height: 0 !important;
     width: 0 !important;
@@ -47,6 +63,7 @@ div[aria-label^="Buy Boosts to"] {
 }
 
 /* Remove the annoying "Super Reaction" BS */
+div[aria-label="Add Super Reaction"],
 #message-add-reaction-1 {
     display: none
 }
