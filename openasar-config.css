@@ -1,0 +1,52 @@
+/* This is my configuration that I use with OpenAsar.
+ * You can install OpenAsar here: https://openasar.dev/
+ * To use this, simply open custom theming options and paste the following:
+ * @import url("https://files.nexy7574.co.uk/share/openasar-config.css")
+ */
+
+@import url('https://fonts.cdnfonts.com/css/whitney-2?styles=68522');
+/* Import the old whitney font, the SansGG Shit discord made is really hard to read */
+:root {
+    --font-primary: "Whitney", Helvetica, Arial, sans-serif !important;
+    --font-display: "Whitney", Helvetica, Arial, sans-serif !important
+}
+
+/* Use old blurple in many different places.
+ * Note that this does override some accessibility settings by ignoring custom contrasts.
+ */
+:root {
+    --brand-500: #7289DA !important;
+}
+
+/* Remove the gift button, since who the hell gifts nitro from their message bar? */
+/* This will also remove the GIF and Sticker buttons since I don't use those.
+ * If you're going to use this yourself, but do use those buttons, you can either:
+ * A) Get used to clicking emoji -> GIF/Stickers/Emojis (top left of modal)
+ * B) Grow up and not use GIFs and stickers, you actual child
+ * C) Not use the custom style sheet.
+ *
+ * Regardless, you can access GIFs by ctrl+g, or emojis->GIFs; Stickers can be accessed in
+ * the same way, ctrl+s or emojis->Stickers.
+ */
+button[aria-label="Send a gift"],
+button[aria-label="Open GIF picker"],
+button[aria-label="Open sticker picker"],
+/* Also remove the "Boost Goal" crap */
+div[aria-label^="Buy Boosts to"] {
+    display: none !important;
+    height: 0 !important;
+    width: 0 !important;
+}
+
+/* Make the reply pipe thingy a bit brighter */
+.client-dark div[class^="repliedMessage-"]:before {
+    border-top-color: white !important;
+    border-left-color: white !important;
+    border-bottom-color: white !important;
+    border-right-color: white !important;
+}
+
+/* Remove the annoying "Super Reaction" BS */
+#message-add-reaction-1 {
+    display: none
+}
