@@ -8,7 +8,7 @@ you use custom CSS.
 You can either copy & paste [openasar-config.css](./openasar-config.css), or add the following snippet to your existing CSS:
 
 ```css
-@import("https://git.nexy7574.co.uk/nex/discord-customcss/raw/branch/main/openasar-config.css")
+@import url("https://git.nexy7574.co.uk/nex/discord-customcss/raw/branch/main/openasar-config.css")
 ```
 
 # Disclaimer
