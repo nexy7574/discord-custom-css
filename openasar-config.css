@@ -47,7 +47,9 @@ button[aria-label="Open sticker picker"],
 /* Also remove the "Boost Goal" crap */
 div[aria-label^="Buy Boosts to"]
 /* And the "Family Centre" stuff, I'm not a child. */
-div[aria-label="Family Centre"], div[aria-label="Family Center"] 
+div[aria-label="Family Centre"], div[aria-label="Family Center"],
+/* "So new" piss off I already pay for nitro */
+a[href="/store"]
 {
     display: none !important;
     height: 0 !important;
