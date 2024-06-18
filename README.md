@@ -8,8 +8,10 @@ you use custom CSS.
 You can either copy & paste [openasar-config.css](./openasar-config.css), or add the following snippet to your existing CSS:
 
 ```css
-@import url("https://git.nexy7574.co.uk/nex/discord-customcss/raw/branch/main/openasar-config.css")
+@import url("https://nexy7574.co.uk/files/discord-customcss/openasar-config.css")
 ```
+
+or in Vesktop/Vencord, just add the url `https://nexy7574.co.uk/files/discord-customcss/openasar-config.css` to the "online themes" section of the Themes setting.
 
 # Disclaimer
 Modifying the discord client is against their terms of service. You use this custom style sheet at your own risk, and I am
