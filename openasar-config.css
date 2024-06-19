@@ -1,20 +1,27 @@
-/* This is my configuration that I use with OpenAsar.
+/* This is my configuration that I use with Vesktop (Vencord), previously OpenASAR.
  * You can install OpenAsar here: https://openasar.dev/
- * To use this, simply open custom theming options and paste the following:
- * @import url("https://git.nexy7574.co.uk/nex/discord-custom-css/src/branch/main/openasar-config.css")
+ * You can install Vencord here: https://vencord.dev/
+ * Install Vesktop here: https://github.com/Vencord/Vesktop/releases
  *
- * License: Unlicense (https://git.nexy7574.co.uk/nex/discord-custom-css/src/branch/main/LICENSE)
- * README: https://git.nexy7574.co.uk/nex/discord-custom-css/src/branch/main/README.md
+ * To use this, simply open custom theming options and paste the following:
+ *
+ * @import url("https://nexy7574.co.uk/discord-css/custom.css")
+ *
+ * Note: The URL previously pointed to the forgejo raw file, however as this did not include CORS or content type, this has been dropped.
+ * If that URL ever goes offline, you can just copy and paste the contents of this file into the custom theming options.
+ * License: Unlicense (https://git.i-am.nexus/nex/discord-custom-css/src/branch/main/LICENSE)
+ * README: https://git.i-am.nexus/nex/discord-custom-css/src/branch/main/README.md
  */
 
 /*
- * Use Whitney font, SansGG sucks.
+ * Use Whitney font, SansGG sucks, and is hard to read.
  */
 @font-face {
     font-family: 'Whitney';
     font-style: normal;
     font-weight: 500;
     src: local('Whitney'), url('https://git.i-am.nexus/nex/discord-custom-css/raw/branch/main/whitneymedium.woff') format('woff');
+    /* Can also be found around the internet. */
 }
 
 :root {
@@ -22,6 +29,8 @@
     --font-display: "Whitney", Helvetica, Arial, sans-serif !important;
     /* Use old blurple in many different places.
     * Note that this does override some accessibility settings by ignoring custom contrasts.
+    * Please note this isnt because im some angry "change is bad never rebrand >>>:((((((" person,
+    * Its because the new blurple hurts my eyes, and looks weird when desaturated.
     */
     --brand-500: #7289DA !important;
 }

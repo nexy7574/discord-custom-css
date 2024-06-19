@@ -1,19 +1,19 @@
 # Discord-CustomCSS
-This is the custom style sheet that I use on discord.
 
-I use this via a custom theme with [OpenASAR](https://openasar.dev/), however you can use this with any mod/client that lets
-you use custom CSS.
+This is the custom style sheet that I use on discord. It contains many tweaks, such as de-cluttering the message bar, and making NSFW channels more obvious when hovered over.
 
 ## Using
+
 You can either copy & paste [openasar-config.css](./openasar-config.css), or add the following snippet to your existing CSS:
 
 ```css
-@import url("https://nexy7574.co.uk/files/discord-customcss/openasar-config.css")
+@import url("https://nexy7574.co.uk/discord-css/openasar-config.css")
 ```
 
-or in Vesktop/Vencord, just add the url `https://nexy7574.co.uk/files/discord-customcss/openasar-config.css` to the "online themes" section of the Themes setting.
+or in Vesktop/Vencord, just add the url `https://nexy7574.co.uk/discord-css/openasar-config.css` to the "online themes" section of the Themes setting.
 
-# Disclaimer
+## Disclaimer
+
 Modifying the discord client is against their terms of service. You use this custom style sheet at your own risk, and I am
 not responsible for any issues that may arise.
 Provided as is.
