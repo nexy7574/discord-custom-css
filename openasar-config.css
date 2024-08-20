@@ -51,7 +51,8 @@ button[aria-label="Open sticker picker"], /* Sticker selector in the message bar
 div[aria-label^="Buy Boosts"], /* Also remove the "Boost Goal" crap */
 div[aria-label="Family Centre"], div[aria-label="Family Center"], /* And the "Family Centre" stuff, I'm not a child. */
 div[aria-label="Add Super Reaction"], #message-reaction-1, /* Remove the annoying "Super Reaction" BS */
-a[href="/store"] /* Remove the "nitro" store money farm */
+a[href="/store"], /* Remove the "nitro" store money farm */
+div[class^="channelAppLauncher_"]  /* This weird ass "app launcher" that is seperate to the message bar, for some reason? It just takes up space */
 {
     display: none !important;
     height: 0 !important;
