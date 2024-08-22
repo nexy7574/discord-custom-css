@@ -14,6 +14,10 @@ or in Vesktop/Vencord, just add the url `https://nexy7574.co.uk/discord-css/open
 
 ## Mirrors
 
+* [Original source (git.i-am.nexus)](https://git.i-am.nexus/nex/discord-custom-css)
+
+*which propagates to*
+
 * [git.elrant.team](https://git.elrant.team/nexy7574/discord-custom-css)
 * [codeberg.org](https://codeberg.org/nexy7574/discord-custom-css)
 * [github.com](https://github.com/nexy7574/discord-custom-css)
